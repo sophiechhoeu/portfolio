@@ -1,0 +1,599 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+ */
+
+@import "bootstrap";
+
+
+nav.shift ul li a {
+  position:relative;
+  z-index: 1;
+}
+nav ul li a:hover {
+  color: black;
+}
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #FFB6DA;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+
+@media (max-width: 575px) {
+  .welcome {
+    display:none;
+  }
+
+
+
+  #contact{
+    // margin-left: 10px;
+    text-align: center;
+  }
+
+  #work{
+    // margin-left: 10px;
+    text-align: center;
+  }
+
+  #projects{
+    // margin-left: 10px;
+    text-align: center;
+  }
+
+  #accordion{
+    text-align: center;
+  }
+
+  .nav-link{
+    padding:0;
+    margin-right:5px;
+    margin-left: 1px;
+    font-size: 15px;
+
+  }
+
+  .nav-brand{
+    padding:0;
+    margin: 0;
+  }
+
+  .info{
+    padding-left: 1px;
+    padding-top:5px
+  }
+
+  .linked-in-header{
+    margin-left: 50px;
+  }
+
+  .linkedin-icon{
+    margin-left: 15px;
+  }
+
+  .logo{
+    margin-top: 0;
+
+  }
+
+  .pad-1{
+    display: none;
+  }
+
+  .carousel-item{
+    max-width: 80%;
+  }
+
+
+ }
+
+ @media (max-width: 767px) {
+
+   .welcome{
+     display: none;
+   }
+
+   .carousel-item{
+     max-width: 60%;
+   }
+
+   .nav-link{
+     font-size: 20px;
+     color: #FFB6DA;
+     margin-right:10px;
+     margin-left: 1px;
+   }
+
+   .btn{
+     margin-top: 5px;
+
+   }
+
+   .github-icon{
+     margin-bottom: 1px;
+     padding-bottom: 0;
+   }
+
+   .linkedin-icon{
+     margin-bottom: 1px;
+     padding-bottom: 0;
+   }
+
+   .email-icon-header{
+     margin-bottom: 1px;
+     padding-bottom: 0;
+   }
+
+ }
+
+ @media (max-width: 991px) {
+
+   .nav-link{
+     font-size: 20px;
+     color: #FFB6DA;
+     margin-right:20px;
+     margin-left: 1px;
+   }
+
+   .welcome{
+     display: none;
+   }
+
+   .carousel-item{
+     max-width: 80%;
+   }
+
+   #projects{
+     margin-right: 20px;
+
+   }
+
+   #contact{
+     margin-right: 20px;
+   }
+
+   #work{
+     margin-left: 20px;
+   }
+
+
+
+
+}
+
+@media (max-width: 1199px) {
+
+  .nav-link{
+    font-size: 20px;
+    color: #FFB6DA;
+    margin-right:20px;
+    margin-left: 1px;
+  }
+
+  #projects{
+    margin-right: 20px;
+
+  }
+
+  #contact{
+    margin-right: 20px;
+  }
+
+  #work{
+    margin-left: 20px;
+  }
+
+  .git-hub-header{
+    margin-left: 10px;
+  }
+
+  .github-icon{
+    margin-left: 5px;
+  }
+
+  .linked-in-header{
+    margin-left: 10px;
+  }
+
+  .linkedin-icon{
+    margin-left: 5px;
+  }
+
+  .email-header{
+    margin-left: 10px;
+  }
+
+  .email-icon-header{
+    margin-left: 5px;
+  }
+}
+
+@media (min-width:992px){
+
+  .nav-link{
+    font-size: 20px;
+    color: #FFB6DA;
+    margin-right:20px;
+    margin-left: 1px;
+  }
+
+  .git-hub-header{
+    padding-left: 40px;
+
+  }
+
+  .github-icon{
+    padding-left: 5px;
+  }
+
+  .linked-in-header{
+    padding-left:40px;
+  }
+
+  .email-header{
+    padding-left: 40px;
+  }
+}
+
+
+
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+margin-top: 50px;
+padding-bottom: 50px;
+background-color: black;
+color:#FFF0F7;
+
+
+}
+
+
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 4px solid black;
+}
+
+.border-left {
+    border-left: 4px solid black;
+}
+.pad-1{
+  padding:0;
+}
+
+
+#projects{
+margin-top:50px;
+margin-bottom: 10px;
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-weight: lighter;
+
+}
+
+#work {
+  margin-top:60px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#contact{
+  margin-top:60px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#projects-h:hover, #contact-h:hover, #work-h:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.navbar{
+  position:fixed;
+  width:100%;
+}
+
+
+// .asos{
+//   margin-top: 30px;
+//   margin-left: 5px;
+//   padding-top: 20px;
+//   // margin-bottom: 10px;
+//   height: 40px;
+//   width: 70px;
+//   border-style: none;
+// }
+
+// .asos-body{
+//   padding-top: 51px;
+// }
+
+.font-mfizz {
+  font-size: 3em;
+}
+
+.fa-html5{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+  //  padding-bottom: 20px;
+   padding-top: 22px;
+   padding-bottom: 15px;
+}
+.icon-ruby{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+  //  padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+.icon-ruby-on-rails-alt{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.welcome{
+position: relative;
+top: 23%;
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-style: thin;
+font-weight: lighter;
+color:#FFB6DA;
+
+}
+
+.card-body{
+  font-family: 'Montserrat', sans-serif;
+  font-style: thin;
+  font-weight: lighter;
+}
+
+.col-1{
+  background-color: black;
+}
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.projects {
+  text-align: right;
+}
+
+.contact{
+  text-align: right;
+}
+
+.logo{
+  width: 100% \9;
+  padding-top: 0px;
+  margin-top: 0;
+}
+
+// .carousel-item{
+//   margin-bottom: 0
+// }
+
+.info{
+  margin-top: 20px;
+  padding-left:4px;
+  background-color: black;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.scroll-adjust{
+  padding-top: 52px;
+  margin-top: -52px;
+}
+
+
+.about{
+  background-color: black;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
+}
+
+.card{
+  border-style: none;
+  display: inline-block;
+
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.work-history{
+  color: black;
+}
+
+.btn{
+  background-color: #7F787B;
+  border: none;
+  color:white;
+  width: 150px;
+}
+
+.btn:hover{
+  color:#FFB6DA;
+}
+
+
+.btn:after,
+.btn:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn:hover:after,
+.btn:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+.email-pic{
+  width:100%;
+}
+
+.bg-grey{
+  background-color: #7F787B
+}
+
+
+
+.fa-reply-all{
+  padding-right: 15px;
+}
+
+// .fa-mouse-pointer{
+//   padding-right: 15px;
+// }
+//
+// .fa-search{
+//   padding-right: 15px;
+// }
+
+.bg-grey-2{
+  background-color: #7E7E7E;
+}
+
+.card-block{
+  padding-top: 2px;
+  padding-left: 6px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+.card-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+
+}
+
+.tab-head{
+  color: #FFB6DA;
+
+}
+
+
+.tab-head:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.animated {
+
+
+}
+
+// .card-html{
+//   height: 202px;
+// }
