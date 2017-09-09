@@ -1,7 +1,7 @@
 # README
 
 
-* Design documentation
+## Design documentation
 My initial user stories and my design process and issue handling can be found at [Trelloboard](https://trello.com/b/WeldRh8d/site-audience)
 
 My wireframe which I've kept the basic structure of but have amended the theme can be found here:
@@ -15,4 +15,4 @@ Logo design I created using Adobe Illustrator in line with my neon pink theme. T
 My design and usability of the site is simple and clear. The nav bar I made sticky to add to user experience. I removed the nav on
 mobile devices because there's only 3 sections to my website which can be easily accessed via short scrolling.
 
-I wanted to include extra features on my website but had issues executing this through ruby on rails and Javascript so I amended the layout to what I thought was achievable within the timeframe of one week. 
+I wanted to include extra features on my website but had issues executing this through ruby on rails and Javascript so I amended the layout to what I thought was achievable within the timeframe of one week.
