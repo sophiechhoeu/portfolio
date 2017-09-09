@@ -20,6 +20,21 @@ nav ul li a:hover {
   background: #FFB6DA;
 }
 
+.sitemap{
+  color:white;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 50px;
+}
+
+.sitemap:hover{
+  color: #FFB6DA;
+}
+
+.site-map{
+  text-align: center;
+}
+
 @media (max-width: 575px) {
   .welcome {
     display:none;
