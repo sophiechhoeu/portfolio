@@ -4,8 +4,9 @@
 ## Design documentation
 My initial user stories and my design process and issue handling can be found at [Trelloboard](https://trello.com/b/WeldRh8d/site-audience)
 
-My wireframe which I've kept the basic structure of but have amended the theme can be found here:
-[Axure](home.html)
+My wireframe which I've kept the basic structure of but have amended the theme the code can be found:
+[Axure](https://github.com/sophiechhoeu/portfolio/tree/master/public/Personal_Portfolio_wireframe)
+[Axure](Personal Portfolio.rp)
 
 I also created a theme for my website on pinterest however I naturally gravitated towards black and pink as my colour scheme(neon-like)
 [Pinterest](https://au.pinterest.com/flavourable_26/portfolio-inspiration/)
