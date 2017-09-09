@@ -25,10 +25,12 @@ nav ul li a:hover {
   text-align: center;
   font-size: 10px;
   margin-top: 50px;
+  text-decoration: none;
 }
 
 .sitemap:hover{
   color: #FFB6DA;
+  text-decoration: none;
 }
 
 .site-map{
@@ -212,8 +214,9 @@ nav ul li a:hover {
 }
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
 
 body {
