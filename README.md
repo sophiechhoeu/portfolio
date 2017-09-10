@@ -16,11 +16,11 @@ My initial user stories and my design process and issue handling can be found at
 
 My design and usability of the site is simple and clear.
 
-The nav bar I made sticky to add to user experience because it allows easier access to the other sections of the website no matter where they scroll. I've also included the data spy scroll that will allow for the user to get directed to each section via a click reducing the need to scroll  as well.
+The nav bar I made sticky to add to user experience during scrolling.
 
 The carousel was used to create an slideshow effect like an animated gif and contribute to my personal brand of being fun and outgoing.
 
-The welcome I've made horizontal to add to the layout structure of the website and provide a unique constrast to the rest of the website.
+The welcome I've made horizontal to add to the layout structure of the website and provide a unique contrast to the rest of the website.
 
 The logo is large as it's on theme and I wanted it to look like a large neon sign.
 
@@ -28,11 +28,11 @@ I've made the background black to allow the text and other card tiles to stand o
 
 My content is succinct to provide an overall snapshot for the users of the website.
 
-The headers shake when they also hover to provide a point of interest on the website and add a little quirk.
+The headers glow and will stop glowing if you hover to provide a point of interest on the website and add a little quirk. My inspiration for this can be found via this [codepen].(https://codepen.io/FelixRilling/full/qzfoc/)
 
 The footer has the same buttons with an animated hover to encourage click through however the button text is more personable like my brand.
 
-I removed the nav on mobile devices and the shake functionality because there's only 3 sections to my website which can be easily accessed via short scrolling. This is to allow the user access to the content without an obstruction with clear buttons and sectioned off areas of content. The highlight hover feature also encourages click through even on mobile.
+I removed the nav on mobile devices and used the site-map as as navbar when the media is smaller as it is available on each page of the site. It's straight forward and to the point and directs the user through each possible page option. The highlight hover feature on the buttons also encourages click through even on mobile.
 
 
 ### Demonstrate that you considered usability heuristics
@@ -51,7 +51,7 @@ I removed the nav on mobile devices and the shake functionality because there's 
 
 7. Flexibility and efficiency of use - The levels on the site is only 4, so they don't need to get through multiple layers to find the info. The information is all accessible via one click through a button.
 
-8. Aesthetic and minimalist design - There isn't any clutter on the site, and is very minimalistic. The core information is available on first page scroll and through the nav bar by the first page visit and if the user is interested in finding more the links are provided for them via a click. The content is spread out throughout the page achieved through small and large font making the aesthetic streamlined.
+8. Aesthetic and minimalist design - There isn't any clutter on the site, and is very minimalistic. The core information is accessible via the nav bar by the first page visit and site map and if the user is interested in finding more the links are provided for them via a click. The content is spread out throughout the page achieved through small and large font making the aesthetic streamlined.
 
 9. Help users recognize, diagnose, and recover from errors - I have uploaded a robot.txt file as part of the portfolio to aid in error handling through web robots.
 
