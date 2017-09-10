@@ -238,8 +238,15 @@ font-size: 30px;
 font-style: thin;
 font-weight: lighter;
 color:#FFB6DA;
+}
+
+.welcome:not(:root:root){
+
+  top:20%;
 
 }
+
+
 
 #projects{
 
@@ -264,7 +271,7 @@ color:#FFB6DA;
 }
 
 
-#projects:hover, #contact:hover, #work:hover {
+#projects:hover, #projects:focus, #contact:hover, #contact:focus,  #work:hover, #work:focus {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
