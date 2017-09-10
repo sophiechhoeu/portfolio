@@ -28,7 +28,7 @@ I've made the background black to allow the text and other card tiles to stand o
 
 My content is succinct to provide an overall snapshot for the users of the website.
 
-The headers glow and will stop glowing if you hover to provide a point of interest on the website and add a little quirk. My inspiration for this can be found via this [codepen].(https://codepen.io/FelixRilling/full/qzfoc/)
+The headers glow and will stop glowing if you hover to provide a point of interest on the website and add a little quirk. My inspiration for this can be found via this [codepen](https://codepen.io/FelixRilling/full/qzfoc/).
 
 The footer has the same buttons with an animated hover to encourage click through however the button text is more personable like my brand.
 
