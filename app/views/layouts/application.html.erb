@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://use.fontawesome.com/bbdaecabea.js"></script> <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css"> <!-- font mfizz cdn -->
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <!-- <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %> -->
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
 
   </head>
 
@@ -15,7 +16,7 @@
 
 
     <%= yield %>
-    <%= javascript_include_tag('hearts.js')%>
+
 
   </body>
 </html>

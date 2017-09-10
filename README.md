@@ -5,7 +5,7 @@
 My initial user stories and my design process and issue handling can be found at [Trelloboard](https://trello.com/b/WeldRh8d/site-audience)
 
 My wireframe which I've kept the basic structure of but have amended the theme the code can be found:
-If you download the Personal Portfolio.rb from the public file, you'll have a copy of it locally. 
+If you download the Personal Portfolio.rb from the public file, you'll have a copy of it locally.
 [Axure](https://github.com/sophiechhoeu/portfolio/tree/master/public/Personal_Portfolio_wireframe)
 
 I also created a theme for my website on pinterest however I naturally gravitated towards black and pink as my colour scheme(neon-like)
