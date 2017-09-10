@@ -1,165 +1,36 @@
-<%= render 'layouts/nav' %>
+ <%= render 'layouts/nav' %>
 
-
-<div class="row"> <!--row1 start-->
-  <div class="col-sm-12 col-lg-5"> <!--carousel begin-->
-    <div id="carousel-me" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner d-flex justify-content-center">
-        <div class="carousel-item active">
-        <%= image_tag("IMG_9348.jpg", :alt => "slide-1", :class =>"d-block w-100 img-fluid" ) %>
-        </div>
-        <div class="carousel-item">
-        <%= image_tag("IMG_9349.jpg", :alt => "slide-2", :class =>"d-block w-100 img-fluid" ) %>
-        </div>
-        <div class="carousel-item">
-        <%= image_tag("IMG_9350.jpg", :alt => "slide-3", :class =>"d-block w-100 img-fluid" ) %>
-        </div>
-      </div>
-    </div>
-  </div> <!--carousel end -->
-
-  <div class="col-lg-1 bg-black">
-      <p class="welcome rotate">WELCOME</p>
-  </div><!--welcome end -->
-
-  <div class="about col-sm-12 col-lg-6">
-    <%= image_tag("sophielogo.svg", :alt => "logo", :class =>"d-block w-100 logo img-fluid mx-auto d-block" ) %>
-    <p class="info">
-     Hi I'm Sophie and I'm aspiring web developer. I have a background in marketing but I've always had a passion for tech
-     and trouble shooting.
-     I might be small in stature but I'm big on fun.
-     If programming has taught me anything it's that "curiousity killed the cat but satisfaction brought it back".
-    </p>
-  </div><!--about me end-->
-
-</div> <!--end of row1-->
-
-<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-  <div class="container"><!--projects container-->
-
-
-    <div class="projects-header d-flex justify-content-center">
-      <h4><p class="hover-over scroll-adjust" id="projects">PROJECTS</p>
-      </h4><!--Projects header end-->
-
-    </div>
-
-
-    <div class="row">
-      <div class="card bg-black d-flex justify-content-around col-sm-12 col-md-4">
-        <div class="card-img-top img-fluid font-mfizz"><!--ruby logo-->
-          <div class="icon-html5-alt"></div>
-        </div>
-
-        <div class="card-body">
-          <h5 class="card-title">HTML</h5>
-          <p class="card-text">I built a html and css wireframe based on the asos website.</p>
-          <a href="https://github.com/sophiechhoeu/wireframe" class="btn" target="_blank">Check it out</a>
-        </div>
-      </div><!--end of html card-->
-
-
-      <!--ruby card-->
-      <div class="card bg-black d-flex justify-content-around col-sm-12 col-md-4">
-        <div class="card-img-top img-fluid font-mfizz"><!--ruby logo-->
-          <div class="icon-ruby"></div>
-        </div>
-
-        <div class="card-body">
-          <h5 class="card-title">Ruby</h5>
-          <p class="card-text">Ruby examples including a holiday package generator.</p>
-          <a href="https://github.com/sophiechhoeu/rubyexamples" class="btn" target="_blank">Find it here</a>
-        </div>
-      </div><!--end of ruby card -->
-
-
-      <!--rails card-->
-      <div class="card bg-black d-flex justify-content-around col-12 col-md-4">
-        <div class="card-img-top img-fluid font-mfizz">
-          <div class="icon-ruby-on-rails-alt"> <!--rails logo-->
+<div class="container">
+  <div class="row"> <!--row1 start-->
+    <div class="col-sm-12 col-lg-5"> <!--carousel begin-->
+      <div id="carousel-me" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner d-flex justify-content-center">
+          <div class="carousel-item active">
+          <%= image_tag("IMG_9348.jpg", :alt => "slide-1", :class =>"d-block w-100 img-fluid" ) %>
+          </div>
+          <div class="carousel-item">
+          <%= image_tag("IMG_9349.jpg", :alt => "slide-2", :class =>"d-block w-100 img-fluid" ) %>
+          </div>
+          <div class="carousel-item">
+          <%= image_tag("IMG_9350.jpg", :alt => "slide-3", :class =>"d-block w-100 img-fluid" ) %>
           </div>
         </div>
-
-        <div class="card-body">
-          <h5 class="card-title">Ruby on Rails</h5>
-          <p class="card-text">I created a ruby on rails project for the amaysim website.</p>
-          <a href="https://github.com/sophiechhoeu/amaysim" class="btn" target="_blank">Take a peek</a>
-        </div>
       </div>
+    </div> <!--carousel end -->
 
-    </div> <!--end of projects row-->
-  </div><!--end of projects container-->
+    <div class="col-lg-1 bg-black">
+        <p class="welcome rotate">WELCOME</p>
+    </div><!--welcome end -->
 
-  <!--work history start container-->
-  <div class="container">
-    <div class="work-header d-flex justify-content-center">
-      <h4><p class="hover-over scroll-adjust" id="work">WORK HISTORY</p></h4>
-    </div><!--work history end-->
-
-
-    <div class="row">
-      <div class="col-sm-12 col-lg-6 ">
-        <p class="work-info">I've been working in Marketing for the last five years and have completed a Bachelor degree in Business. My primary marketing roles involved building business relationships
-        and trouble shooting. As a result my passion for tech grew and it all started from Email
-        and Lead Generation marketing.</p>
-      </div><!--end of work history blurb-->
-
-
-      <div class="col-sm-12 col-lg-6">
-        <div class="card lead-card" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="card-header bg-grey" role="tab" id="lead-gen">
-            <h5 class="mb-0">
-              <i class="fa fa-reply-all fa-1x" aria-hidden="true"></i>
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="tab-head">
-              Lead Generation and Email</a>
-            </h5>
-          </div>
-
-          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-            <div class="card-block bg-grey-2">
-              <p class="work-about">I worked for lead generation and email company called 3di. Lead generation is the initiation of consumer
-              interest or enquiry into products or services of a business. I was publisher operations manager where I managed
-              delivery of client campaigns which included html for Nissan.</p>
-            </div>
-          </div>
-        </div>
-      </div><!--end of accordion-->
-    </div> <!--end of work row-->
-  </div> <!--work history end container-->
-
-
-  <div class="container">
-    <div class="contact-header d-flex justify-content-center">
-      <h4><p class="hover-over scroll-adjust" id="contact">CONTACT</p></h4>
-    </div>
-  </div><!--contact header end-->
-
-
-  <div class="container">
-    <div class="row">
-      <div class="email-footer d-flex justify-content-around col-12 col-md-4">
-        <div class="email-icon-header">
-          <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-        </div>
-        <a href="mailto:sophie.chhoeu@gmail.com" class="btn">Email me</a>
-      </div>
-
-      <div class="github-footer d-flex justify-content-around col-12 col-md-4">
-        <div class="github-icon">
-          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        </div>
-        <a href="https://github.com/sophiechhoeu" class="btn" target="_blank">Git me</a>
-      </div>
-
-      <div class="linkedin-footer d-flex justify-content-around col-12 col-md-4">
-        <div class="linkedin-icon">
-          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-        </div>
-        <a href="https://www.linkedin.com/in/sophie-chhoeu-58a96670/" class="btn" target="_blank">Link me</a>
-      </div>
-
-    </div><!--end of row-->
-    <a href="/pages/sitemap" ><p class="sitemap">sitemap</p></a>
-  </div><!--end of container-->
-
-</div> <!--scroll end-->
+    <div class="about col-sm-12 col-lg-6">
+      <%= image_tag("sophielogo.svg", :alt => "logo", :class =>"d-block w-100 logo img-fluid mx-auto d-block" ) %>
+      <p class="info">
+       Hi I'm Sophie and I'm aspiring web developer. I have a background in marketing but I've always had a passion for tech
+       and trouble shooting.
+       I might be small in stature but I'm big on fun.
+       If programming has taught me anything it's that "curiousity killed the cat but satisfaction brought it back".
+      </p>
+    </div><!--about me end-->
+  </div> <!--end of row1-->
+  <a href="/pages/sitemap" ><p class="sitemap">sitemap</p></a>
+</div><!--end of container-->
