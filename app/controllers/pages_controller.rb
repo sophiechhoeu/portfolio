@@ -4,4 +4,14 @@ class PagesController < ApplicationController
 
   def sitemap
   end
+
+  def contact
+  end
+
+  def work
+  end
+
+  def projects
+  end
+  
 end
