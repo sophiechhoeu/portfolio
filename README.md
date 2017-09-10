@@ -63,7 +63,7 @@ I removed the nav on mobile devices and the shake functionality because there's 
 My wireframe which I've kept the basic structure of but have amended through the developmenet of the site.
 
 The theme the code can be found:
-If you download the Personal Portfolio.rb from the public file, you'll have a copy of it locally.
+If you download the Personal Portfolio.rb from the public file, you'll have a copy of it locally at
 [Axure](https://github.com/sophiechhoeu/portfolio/tree/master/public/Personal_Portfolio_wireframe)
 
 ### Style guide - font, theme, colours, pinterest
