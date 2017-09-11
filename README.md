@@ -60,11 +60,11 @@ I removed the nav on mobile devices and used the site-map as as navbar when the 
 
 ### Any wireframes
 
-My wireframe which I've kept the basic structure of but have amended through the developmenet of the site.
+My wireframe which I've kept the basic structure of but have amended through the development of the site.
 
 The theme the code can be found:
 If you download the Personal Portfolio.rb from the public file, you'll have a copy of it locally at
-[Axure](https://github.com/sophiechhoeu/portfolio/tree/master/public/Personal_Portfolio_wireframe)
+[Axure](https://github.com/sophiechhoeu/wireframe)
 
 ### Style guide - font, theme, colours, pinterest
 

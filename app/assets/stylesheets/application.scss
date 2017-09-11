@@ -67,10 +67,6 @@ nav ul li a:hover {
     display:none;
   }
 
-  .nav{
-    display: none;
-  }
-
   .logo{
     max-width: 60%;
     align-self: center;
@@ -83,6 +79,15 @@ nav ul li a:hover {
     font-size: 10px;
     margin-bottom: 20px;
   }
+
+.nav-link{
+}
+  // .nav-link{
+  //   font-size: 80px;
+  //   color: #FFB6DA;
+  //   margin-right:1px;
+  //   margin-left: 1px;
+  // }
 
   // .projects-header{
   //   margin-top: 20px;
@@ -464,6 +469,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   font-size: 10px;
   font-weight: lighter;
   color:#FFB6DA;
+  margin-right: -18px;
 }
 
 .work-info{
