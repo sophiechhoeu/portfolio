@@ -1,7 +1,12 @@
 # README
 
+Alt-H1 Heroku Deployment
+You can find my portfolio at [Heroku](https://sophie-portfolio.herokuapp.com/)
+
 
 ## Design documentation
+
+
 
 ### Demonstrate your understanding of your site's audience
 
