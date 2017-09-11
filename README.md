@@ -1,6 +1,6 @@
 # README
 
-##Heroku Deployment
+## Heroku Deployment
 You can find my portfolio at [Heroku](https://sophie-portfolio.herokuapp.com/)
 
 
